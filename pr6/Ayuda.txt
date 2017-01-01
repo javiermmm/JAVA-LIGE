@@ -1,0 +1,32 @@
+Bienvenido a la ayuda del editor de escenarios del
+juego de los barcos.
+
+A continuación, te explicamos el funcionamiento general de
+la aplicación. 
+
+Al abrir la aplicacion, veras solamente un menu de opciones
+en la parte superior. Este menu te da la posibilidad de:
+
+- Menu Salir: Si haces click en la opcion salir, cerrarás 
+	      la aplicación
+
+- Menu Ayuda: Si eliges la opcion Ver Ayuda se mostrará esta ayuda.
+
+- Menu Archivo: En este menu dispones de:
+	+ Nuevo: Para crear un nuevo escenario
+
+	+ Abrir: Para abrir un escenario ya existente tras seleccionar
+	la ruta en la que buscar y el archivo a abrir
+
+	+ Guardar: Para guardar el estado actual del escenario.
+
+	+ Guardar como...: Para guardar el estado actual del escenario
+	indicando la ruta y el nombre de archivo.
+
+
+
+
+
+Muchas gracias por usar esta aplicación, esperamos que te sea de utilidad.
+
+El equipo de desarrollo.

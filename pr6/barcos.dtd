@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tablero (barco*)>
+<!ATTLIST tablero
+	ancho CDATA #REQUIRED
+	alto CDATA #REQUIRED
+>
+
+
+<!ELEMENT barco (posicion+)>
+<!ATTLIST barco
+	tipo (portaaviones|destructor|fragata|submarino) #REQUIRED
+>
+
+<!ELEMENT posicion EMPTY>
+<!ATTLIST posicion
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+>
+
