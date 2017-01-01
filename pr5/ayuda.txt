@@ -1,0 +1,98 @@
+Bienvenido a la ayuda del juego de los barcos.
+
+A continuación, te explicamos el funcionamiento general de
+la aplicación, y algunas consideraciones sobre las propias
+reglas de juego.
+
+
+*********************************************
+* SOBRE EL JUEGO DE LOS BARCOS: *
+*********************************************
+
+Se mantienen las típisa reglas del juego original de la batalla
+naval. Algunos aspectos a tener en cuenta son:
+
+- Si en un disparo no acierta a ningun barco, se considera AGUA (a).
+- Si por el contrario, sí que aciertas se considera TOCADO (X).
+- Si tocas un barco en todas sus casillas, entonces se considera 
+  HUNDIDO (H).
+- No está permitida, la colocacion de un barco en casillas 
+  adyacentes a otro barco.
+- No está permitida la colocación de barcos en diagonal.
+- Se restringe el tamaño del tablero a un ancho y un alto comprendidos
+  entre 10 y 16 (ambos inclusive), permitiéndose tableros no cuadrados.
+
+
+*******************************
+* SOBRE LA APLICACION: *
+*******************************
+
+Al iniciar la aplicacion verás la ventana vacía, sólo con
+un menú y una imagen de fondo. Este menú dispone de las 
+siguientes opciones: 
+
+- Si pulsas en la opcion "Salir", cerrarás la ventana
+y saldrás del programa.
+
+- Si pulsas en la opcion "Ayuda", se te mostrará esta ayuda.
+
+- Si pulsas en la opción "Partida" se desplegará una lista
+con dos posibles opciones:
+
+	+ "Nueva Partida": Al hacer click con el boton
+	izquierdo del raton se desplegará
+	un cuadro de diálogo, solicitando
+	la configuracion de la partida que
+	desees. Despues de Aceptar, se 
+	construirá la ventana.
+	
+	+ "Terminar Partida": Al hacer click con el boton
+	izquierdo del raton, se terminará
+	la partida y la ventana volverá al
+	mismo estado que al iniciar la 
+	aplicacion.
+
+Cuando hayas introducido los datos de la nueva partida que 
+quieres jugar, y hayan aparecido los elementos nuevos en la 
+ventana veràs:
+	+ El estado de la partida, en la parte inferior.
+	+ Los paneles de Depuracion, a la derecha.
+	+ El tablero de juego en la parte izquierda.
+	+ Los botones de disparos especiales en el centro.
+
+El Tablero de juego está compuesto por botones. Cada botón
+representa una coordenada del tablero, y para dirparar a
+esa coordenada, sólo has de pinchar sobre él con el botón
+izquierdo del ratón.
+
+Si quieres utilizar alguno de los disparos especiales, debes
+pinchar primero en el boton del disparo especial que quieres
+usar, y luego en la posicion objetivo del tablero. Los botones
+de los disparos especiales funcionan como interruptores: al 
+pulsarlos activas el disparo especial y al pulsarlos de nuevo
+(o usarlos) se desactivan, por lo que si despues de elegir usar
+un disparo especial te arrepientes no tienes más que volver a 
+hacer click en el boton que sea, y podras seguir disparando
+con normalidad.Los dos tipos de disparos especiales de los que
+dispones son:
+
+	+ Disparo de Dispersión: Contabilizando un solo disparo
+	descubres la casilla del tablero en la que pulsaste y las
+	8 casillas adyacentes que la rodean en todas las direcciones.
+	
+	+ Disparo Sónico: Este disparo supone una ayuda al buscar 
+	los escurridizos submarinos, ya que al realizar este tipo de
+	disparo en una casilla descubre la posicion de todos los 
+	submarinos que se encuentren en la casilla pulsada o en las
+	8 casillas adyacentes que la rodean en todas las direcciones
+	(si los hubiera). Se contabiliza como un disparo más para 
+	calcular la puntuacion.
+	 
+
+Por último presta atención a los posibles avisos que se muestren 
+como reaccion a un uso inadecuado de la aplicación, y recuerda 
+que si mantienes el puntero del ratón sobre cualquier 
+componente se mostrará un mensaje de ayuda contextual que 
+quizá pueda serte útil.
+
+Gracias por jugar, y ¡suerte!
